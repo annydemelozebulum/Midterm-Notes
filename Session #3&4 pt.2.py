@@ -21,3 +21,20 @@ print(b + 2)
 c = a > b
 print(c and a)
 print(a + b + c)
+
+
+#Input
+prompt = 'What is the speed of the car?'
+speed = input(prompt)
+int(speed)
+int(speed) + 5
+
+name = input("What is your name?")
+age = input("How old are you?")
+age = int(age)
+birth_year = 2023 - age
+
+print(f"OMG {name}, you are {age} years old so you were born in {birth_year}!")
+print("OMG", name, ", you are", age, "years old so you were born in", birth_year)
+
+
