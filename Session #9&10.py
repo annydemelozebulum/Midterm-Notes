@@ -17,3 +17,51 @@ print(math.sqrt(2)/2)
 
 #Random Values
 
+import random
+
+for l in range(10):
+    x = random.random()
+    print(x)
+
+print(random.randint(5, 10))
+
+#Random Choices
+people = ["John", "Ana", "Jim", "George", "James"]
+print(random.choice(people))
+
+
+#Creating function
+def greet(name):
+    """
+    Input: none
+    This function just prints "hello, <name>"
+    """
+    print('Hello!', str(name).capitalize())
+
+greet("james")
+
+#Function with 3 arguments
+def sum_and_multiply(t1, t2, m):
+    """
+    :param t1: addition number1
+    :param t2: addition number 2
+    :param m: multiplicator
+    :return: prints(t1+t2)*m
+    """
+
+    print((t1+t2)*m)
+sum_and_multiply(1, 2,3 )
+
+#Function with Return
+
+def sum_and_multiply(t1, t2, m):
+    """
+    :param t1: addition number1
+    :param t2: addition number2
+    :param m: multiplicator
+    :return: prints (t1+t2)*m
+    """
+    return (t1+t2)*m
+
+result = sum_and_multiply(1,2,3)
+print("(1+2)*3 - 4 = ", result-4)
