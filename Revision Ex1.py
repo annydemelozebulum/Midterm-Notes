@@ -1,4 +1,3 @@
-
 #Exercises
 #Indicate type of expression
 
@@ -37,7 +36,6 @@ print(type(["abc", 2]))  # Type: <class 'list'>
 
 # 12. (2)
 print(type((2)))  # Type: <class 'int'>
-
 
 
 
