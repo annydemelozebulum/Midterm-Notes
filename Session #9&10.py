@@ -65,3 +65,13 @@ def sum_and_multiply(t1, t2, m):
 
 result = sum_and_multiply(1,2,3)
 print("(1+2)*3 - 4 = ", result-4)
+
+
+
+import random
+
+# Generate 10 random numbers and add them together
+total = sum(random.randint(1, 100) for _ in range(10))
+
+# Print the sum
+print("Sum of the 10 random numbers:", total)
